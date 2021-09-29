@@ -19,16 +19,34 @@
             </select>
         </div><br>
         <div class="grid grid-2">
+            <input type="number" placeholder="Digite documento" required>
+        </div><br><br>
+        <div class="grid grid-2">
             <input type="text" placeholder="Nombre" required>
             <input type="text" placeholder="Apellido" required>
         </div><br>
         <div class="grid grid-2">
             <input type="email" placeholder="Correo" required>
             <input type="number" placeholder="Teléfono" required>
-        </div><br>
+        </div><br><br>
         <textarea placeholder="Observaciones"></textarea><br>
         <input type="checkbox" id="terms">
         <label for="terms">Aceptación de datos</label>
+        <div class="grid grid-3"><br><br>
+            <div class="required-msg">Obligatorio</div><br>
+            <button class="btn-grid" type="submit" disabled>
+                <span class="back">
+                    <img src="img/guardar.png" width="29" height=""  dalt="btn guardar">
+                </span>
+                <span class="front">Submit</span>
+            </button>
+            <button class="btn-grid" type="submit" disabled>
+                <span class="back">
+                    <img src="img/eliminar.jfif" width="35" height=""  dalt="btn eliminar">
+                </span>
+                <span class="front">Eliminar</span>
+            </button>
+        </div>
     </form>
 </body>
 </html>
