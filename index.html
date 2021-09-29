@@ -10,13 +10,21 @@
     <center><h1>Formulario de registro</h1></center>
     <form class="My-form">
         <div class="container">
-            <select>
-                <option select disabled>Seleccione una</option>
+            <select name="tipo_doc">
+                <option selected disabled>Seleccione una</option>
                 <option value="cc">Cedula de ciudadanía</option>
                 <option value="ce">Cedula de extranjería</option>
                 <option value="ti">Tarjeta de identidad</option>
                 <option value="pp">Pasaporte</option>
             </select>
+        </div><br>
+        <div class="grid grid-2">
+            <input type="text" placeholder="Nombre" required>
+            <input type="text" placeholder="Apellido" required>
+        </div><br>
+        <div class="grid grid-3">
+            <input type="email" placeholder="Correo" required>
+            <input type="number" placeholder="Teléfono" required>
         </div>
     </form>
 </body>
